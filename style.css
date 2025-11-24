@@ -1,0 +1,204 @@
+/* C:\xampp\htdocs\deepstone\style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff; /* สีฟ้าอ่อน/ขาว สดใส */
+    color: #333;
+}
+
+#container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #66bb6a; /* สีเขียวสดใส */
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #1a237e; /* น้ำเงินเข้ม */
+    margin-bottom: 5px;
+}
+
+/* ส่วนตาราง - ปรับความกระชับ */
+#stone-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px; 
+}
+
+#stone-list th, #stone-list td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 8px; /* ลด Padding เพื่อลดระยะห่างระหว่างบรรทัด */
+    text-align: left;
+    height: 30px; 
+    vertical-align: middle;
+}
+
+#stone-list th {
+    background-color: #ffb300; /* ส้มทองสดใส */
+    color: white;
+}
+
+#stone-list tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+/* ปุ่ม Action และ Export */
+.action-buttons button, .action-buttons a, 
+.controls .export-all-btn, .modal-export-buttons button {
+    padding: 4px 8px; 
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white; /* ตัวอักษรสีขาว */
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* ปุ่ม Export TXT (น้ำเงินเข้ม/เขียวเข้ม) */
+.text-export { 
+    background-color: #004d40; 
+} 
+
+/* ปุ่ม Export PDF (แดงเลือดนกเข้ม) */
+.pdf-export { 
+    background-color: #b71c1c; 
+} 
+
+/* ปุ่ม รายละเอียด */
+.detail-btn { background-color: #3f51b5; } 
+/* ปุ่ม G (Google Image Search) */
+.g-btn { background-color: #4CAF50; } 
+/* ปุ่ม E (Etsy Search) */
+.e-btn { background-color: #f44336; } 
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    color: #1a237e;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: background-color .3s, color .3s;
+    border: 1px solid #dcdcdc;
+    margin: 0 2px;
+    border-radius: 4px;
+    min-width: 25px; 
+    text-align: center;
+    font-size: 13px;
+}
+
+.pagination a.active {
+    background-color: #1a237e;
+    color: white;
+    border: 1px solid #1a237e;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #f0f0f0;
+}
+
+.pagination .dots {
+    padding: 6px 4px;
+    color: #aaa;
+}
+
+.pagination .nav-arrow {
+    padding: 6px 12px;
+    font-weight: normal;
+    background-color: #fff;
+}
+
+.controls {
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/* Modal (Pop-up) Styling - แก้ไขให้ Pop-up ทำงาน */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 800px; 
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #1a237e;
+    margin-top: 0;
+}
+.modal-content h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+    border-left: 3px solid #ffb300;
+    padding-left: 8px;
+}
+
+.modal-content ul {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.modal-content ul li {
+    margin-bottom: 3px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.modal-export-buttons {
+    text-align: right;
+    margin-top: -10px;
+}

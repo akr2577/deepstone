@@ -1,0 +1,86 @@
+﻿[
+{
+    "id": 1,
+    "name": "ชวด",
+    "english_name": "Rat",
+    "sort_order": 1,
+    "element_ids": "5"
+},
+{
+    "id": 2,
+    "name": "ฉลู",
+    "english_name": "Ox",
+    "sort_order": 2,
+    "element_ids": "3"
+},
+{
+    "id": 3,
+    "name": "ขาล",
+    "english_name": "Tiger",
+    "sort_order": 3,
+    "element_ids": "1"
+},
+{
+    "id": 4,
+    "name": "เถาะ",
+    "english_name": "Rabbit",
+    "sort_order": 4,
+    "element_ids": "1"
+},
+{
+    "id": 5,
+    "name": "มะโรง",
+    "english_name": "Dragon",
+    "sort_order": 5,
+    "element_ids": "3"
+},
+{
+    "id": 6,
+    "name": "มะเส็ง",
+    "english_name": "Snake",
+    "sort_order": 6,
+    "element_ids": "2"
+},
+{
+    "id": 7,
+    "name": "มะเมีย",
+    "english_name": "Horse",
+    "sort_order": 7,
+    "element_ids": "2"
+},
+{
+    "id": 8,
+    "name": "มะแม",
+    "english_name": "Goat",
+    "sort_order": 8,
+    "element_ids": "3"
+},
+{
+    "id": 9,
+    "name": "วอก",
+    "english_name": "Monkey",
+    "sort_order": 9,
+    "element_ids": "4"
+},
+{
+    "id": 10,
+    "name": "ระกา",
+    "english_name": "Rooster",
+    "sort_order": 10,
+    "element_ids": "4"
+},
+{
+    "id": 11,
+    "name": "จอ",
+    "english_name": "Dog",
+    "sort_order": 11,
+    "element_ids": "3"
+},
+{
+    "id": 12,
+    "name": "กุน",
+    "english_name": "Pig",
+    "sort_order": 12,
+    "element_ids": "5"
+}
+]

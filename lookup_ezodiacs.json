@@ -1,0 +1,134 @@
+﻿[
+  {
+    "id": 1,
+    "name": "เมษ",
+    "english_name": "Aries",
+    "start_month": 4,
+    "start_day": 13,
+    "end_month": 5,
+    "end_day": 14,
+    "sort_order": 1,
+    "element_ids": "2"
+  },
+  {
+    "id": 2,
+    "name": "พฤษภ",
+    "english_name": "Taurus",
+    "start_month": 5,
+    "start_day": 15,
+    "end_month": 6,
+    "end_day": 14,
+    "sort_order": 2,
+    "element_ids": "3"
+  },
+  {
+    "id": 3,
+    "name": "เมถุน",
+    "english_name": "Gemini",
+    "start_month": 6,
+    "start_day": 15,
+    "end_month": 7,
+    "end_day": 14,
+    "sort_order": 3,
+    "element_ids": "1 4"
+  },
+  {
+    "id": 4,
+    "name": "กรกฎ",
+    "english_name": "Cancer",
+    "start_month": 7,
+    "start_day": 15,
+    "end_month": 8,
+    "end_day": 15,
+    "sort_order": 4,
+    "element_ids": "5"
+  },
+  {
+    "id": 5,
+    "name": "สิงห์",
+    "english_name": "Leo",
+    "start_month": 8,
+    "start_day": 16,
+    "end_month": 9,
+    "end_day": 16,
+    "sort_order": 5,
+    "element_ids": "2"
+  },
+  {
+    "id": 6,
+    "name": "กันย์",
+    "english_name": "Virgo",
+    "start_month": 9,
+    "start_day": 17,
+    "end_month": 10,
+    "end_day": 16,
+    "sort_order": 6,
+    "element_ids": "3"
+  },
+  {
+    "id": 7,
+    "name": "ตุลย์",
+    "english_name": "Libra",
+    "start_month": 10,
+    "start_day": 17,
+    "end_month": 11,
+    "end_day": 15,
+    "sort_order": 7,
+    "element_ids": "1 4"
+  },
+  {
+    "id": 8,
+    "name": "พิจิก",
+    "english_name": "Scorpio",
+    "start_month": 11,
+    "start_day": 16,
+    "end_month": 12,
+    "end_day": 15,
+    "sort_order": 8,
+    "element_ids": "5"
+  },
+  {
+    "id": 9,
+    "name": "ธนู",
+    "english_name": "Sagittarius",
+    "start_month": 12,
+    "start_day": 16,
+    "end_month": 1,
+    "end_day": 14,
+    "sort_order": 9,
+    "element_ids": "2"
+  },
+  {
+    "id": 10,
+    "name": "มังกร",
+    "english_name": "Capricorn",
+    "start_month": 1,
+    "start_day": 15,
+    "end_month": 2,
+    "end_day": 12,
+    "sort_order": 10,
+    "element_ids": "3"
+  },
+  {
+    "id": 11,
+    "name": "กุมภ์",
+    "english_name": "Aquarius",
+    "start_month": 2,
+    "start_day": 13,
+    "end_month": 3,
+    "end_day": 14,
+    "sort_order": 11,
+    "element_ids": "1 4"
+  },
+  {
+    "id": 12,
+    "name": "มีน",
+    "english_name": "Pisces",
+    "start_month": 3,
+    "start_day": 15,
+    "end_month": 4,
+    "end_day": 12,
+    "sort_order": 12,
+    "element_ids": "5"
+  }
+]
